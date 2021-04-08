@@ -835,8 +835,6 @@ contract ERC721Metadata is ERC165, ERC721, IERC721Metadata {
   }
 }
 
-// File: openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol
-
 /**
  * @title Full ERC721 Token
  * This implementation includes all the required and some optional functionality of the ERC721 standard
@@ -894,8 +892,6 @@ library Roles {
     return role.bearer[account];
   }
 }
-
-// File: openzeppelin-solidity/contracts/access/roles/MinterRole.sol
 
 contract MinterRole {
   using Roles for Roles.Role;
